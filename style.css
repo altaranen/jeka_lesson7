@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.body {
+    min-height: 560px;
+    background-color: #fff;  
+}
+
+.main {
+    max-width: 390px;
+}
+.preTitle__main {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1E212C;
+    margin-bottom: 2px;
+
+}
+.title__main {
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    /* identical to box height, or 60px */
+    color: #1E212C;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+.text__main {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+/* identical to box height, or 26px */
+    color: #424551;
+}
+li {
+    margin-bottom: 7px;
+}
+ul {
+    list-style-image: url(img/check.png);
+    margin-bottom: 39px;
+    padding-left: 33px;
+}
+.btn__main {
+    min-width: 161px;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border-radius: 4px;
+
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 39px;
+
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.hr {
+    max-width: 811px;
+    min-height: 1600px;
+}
+
+.title__hr {
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+    margin-bottom: 19px;
+}
+.data__hr {
+    margin-bottom: 40px;
+}
+
+.photo__hr {
+    margin-bottom: 60px;
+}
+
+p {
+    font-family: Lato;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+    color: #424551;
+}
+.bold {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    
+}
+ol {
+    list-style-image: url(img/braces.png);
+    padding-left: 58px;
+    font-family: Lato;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+    color: #424551;
+
+}
+
